@@ -45,12 +45,15 @@ The visual representation of the cluster map can be seen below:
 ![ClusterMap3](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/cluster3.png)
 
 ## Build:
+*Deployed at Vercel*
+
 You can see the heat map running here: 
 
 [Heat-Map-Dengue-App](https://heat-map-dengue.vercel.app/)
-*Deployed at Vercel*
 
-[Clustering-Map-Dengue-App](https://guilherme-turri.github.io/ClusterMapDengue/)
-*Deployed at GH Pages*
+You can see the cluster map running here: 
+
+[Clustering-Map-Dengue-App](https://cluster-map-dengue.vercel.app/)
+
 
 
