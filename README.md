@@ -26,21 +26,31 @@ The next step involved refactoring some incorrect data and removing outliers bas
 
 For the heat map, the logic involved duplicating each coordinate based on the number of dengue cases, as the number of incidences is the key factor considered in a heat map.
 
+Only the region of Caçapava was taken into consideration
+
 The visual representation of the heat map can be seen below:
 
-![HeatMap1](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/heat1.png)
-
-![HeatMap2](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/heat2.png)
-
-![HeatMap3](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/heat3.png)
-
+![HeatMap1](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/heat1.png)
+![HeatMap2](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/heat2.png)
+![HeatMap3](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/heat3.png)
 
 For the clustering map, the location of each municipality is taken into account, which is why there is no need to use the number of cases for the labeling logic.
 The algorithm used for clustering calculates the distance between municipalities and groups them into clusters based on their proximity to each other. This allows similar municipalities to be grouped together, forming clusters on the map based on their geographical locations.
 
 The visual representation of the cluster map can be seen below:
-![ClusterMap1](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/cluster1.png)
+![ClusterMap1](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/cluster1.png)
 
-![ClusterMap2](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/cluster2.png)
+![ClusterMap2](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/cluster2.png)
 
-![ClusterMap3](https://github.com/Guilherme-Turri/HeatMap-CusterMap-dengue-cases-SP/blob/master/cluster3.png)
+![ClusterMap3](https://github.com/Guilherme-Turri/maps-of-dengue-cases-sp/blob/master/imgs/cluster3.png)
+
+## Build:
+You can see the heat map running here: 
+
+[Heat-Map-Dengue-App](https://heat-map-dengue.vercel.app/)
+*Deployed at Vercel*
+
+[Clustering-Map-Dengue-App](https://guilherme-turri.github.io/ClusterMapDengue/)
+*Deployed at GH Pages*
+
+
